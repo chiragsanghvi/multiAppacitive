@@ -1,5 +1,7 @@
 This module returns a new instance of the Appacitive Javascript SDK on every include, overriding the default Singleton-like behaviour. This is achieved by clearing node's require.cache of the Appacitive module.
 
+npm install multiappacitive
+
 **Usage**
 ```javascript
 //Include multiAppacitive
