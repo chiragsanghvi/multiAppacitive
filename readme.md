@@ -40,7 +40,6 @@ exports.init = function (userToken, user) {
             user: user
         });
 
-        Appacitive.config.apiBaseUrl = "http://apis.appacitive.com/";
         return Appacitive;
 };
 

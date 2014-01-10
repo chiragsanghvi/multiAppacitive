@@ -5,6 +5,5 @@ modules.exports = function () {
 	var Appacitive = require(path);
 	delete require.cache[require.resolve(path)];
 
-	Appacitive.config.apiBaseUrl = "http://apis.appacitive.com/";
 	return Appacitive;
 };
