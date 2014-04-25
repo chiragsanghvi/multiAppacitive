@@ -1,8 +1,8 @@
 {
   "name": "multiappacitive",
   "description": "Allows you to integrate applications built using javascript with the Appacitive platform overriding singleton behaviour. ",
-  "version": "0.1.1",
-  "keywords": ["Appacitive", "multi", "BAAS", "cloud", "api"],
+  "version": "0.1.2",
+  "keywords": ["Appacitive","javascript", "multi", "BAAS", "cloud", "api"],
   "author": {
     "name": "Chirag Sanghvi",
     "email": "csanghvi@appacitive.com"

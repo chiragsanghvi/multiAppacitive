@@ -1,4 +1,5 @@
-modules.exports = function () {
+exports.Appacitive = function () {
+	
 	var path = require.resolve('appacitive');
 	delete require.cache[require.resolve(path)];
 

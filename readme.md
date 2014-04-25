@@ -1,11 +1,12 @@
 This module returns a new instance of the Appacitive Javascript SDK on every include, overriding the default Singleton-like behaviour. This is achieved by clearing node's require.cache of the Appacitive module.
 
+```javascript
 npm install multiappacitive
-
+```
 **Usage**
 ```javascript
 //Include multiAppacitive
-var multiAppacitive = require('multiappacitive');
+var multiAppacitive = require('multiappacitive').Appacitive;
 
 //Get a new instance of Appacitive
 var Appacitive = new multiAppacitive();
@@ -26,7 +27,7 @@ The only place where we may need to change the singleton behaviour of SDK is per
 // If you provide a user object then that object will be set as current user. 
 // You can always fetch a user by his token and set it as current user afterwards.
 
-var multiAppacitive = require('multiappacitive');
+var multiAppacitive = require('multiappacitive').Appacitive;
 
 exports.init = function (userToken, user) {
         
